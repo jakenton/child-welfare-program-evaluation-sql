@@ -169,3 +169,40 @@ SELECT
 FROM Outcomes o
 JOIN Programs p ON o.ProgramID = p.ProgramID
 GROUP BY p.ProgramName, o.OutcomeType;
+
+
+/* ============================================================
+   EXPORT DATASET: PROGRAM FUNDING & OUTCOMES
+   Purpose:
+   - Supports visualization, reporting, and portfolio graphics
+   - Flattens relational tables into analysis-ready format
+   - Designed for Excel, Power BI, and CSV export
+   ============================================================ */
+SELECT
+    p.ProgramName AS program_name,
+    pf.FiscalYear AS fiscal_year,
+    pf.AllocatedAmount AS allocated_amount,
+    pf.SpentAmount AS spent_amount,
+    o.OutcomeType AS outcome_type,
+    c.Region As Region
+
+FROM ProgramFunding pf
+
+-- Join to Programs to obtain program names and types
+JOIN Programs p
+    ON pf.ProgramID = p.ProgramID
+
+-- Join to Outcomes to associate funding with child outcomes
+JOIN Outcomes o
+    ON p.ProgramID = o.ProgramID
+
+-- Join to Children to capture geographic equity dimension
+JOIN Children c
+    ON o.ChildID = c.ChildID
+
+-- Optional ordering for readability and QA
+ORDER BY
+    pf.FiscalYear,
+    p.ProgramName,
+    c.Region,
+    o.OutcomeType;
