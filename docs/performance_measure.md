@@ -22,60 +22,75 @@ Performance measures were designed to be
 ### 1. Budget Utilization Rate
 
 **Definition:**
+The percentage of allocated program funds that were spent during a fiscal year.
 
 **Calculation:**
+Spent Amount ÷ Allocated Amount 
 
 **Purpose:**
+- Identifies under- or over-utilization of program funding.
+- Supports fiscal accountability and budget planning.
 
 ---
 
 ### 2. Cost Per Permanency Outcome
 
 **Definition:**
+The average cost required to achieve a permanency outcome (reunification or adoption).
 
 **Calculation:**
+Total Program Spending ÷ Number of Permanency Outcomes
 
 **Purpose:**
+- Evaluates program efficiency.
+- Supports comparisons across programs and fiscal years.
 
 ---
 
 ### 3. Permanency Outcome Rate
 
 **Definition:**
+The proportion of children served by a program who achieve a permanency outcome within the reporting period.
 
 **Calculation:**
+Number of Permanency Outcomes ÷ Total Outcomes
 
 **Purpose:**
+- Measures program effectiveness.
+- Supports outcome monitoring and CQI efforts.
 
 ---
 
 ### 4. Outcome Distribution by Type
 
 **Definition:**
-
-**Calculation:**
+The breakdown of outcomes by type (reunification, adoption, aging out).
 
 **Purpose:**
+- Provides context for understanding overall outcome patterns.
+- Highlights areas for targeted intervention or policy review.
 
 ---
 
 ### 5. Regional Outcome Comparison
 
 **Definition:**
-
-**Calculation:**
+Comparison of permanency outcomes across geographic regions.
 
 **Purpose:**
+- Supports equity-focused evaluation.
+- Identifies regional disparities that may require additional support.
 
 ---
 
 ### 6. Year-over-Year Outcome Trend
 
 **Definition:**
-
-**Calculation:**
+Changes in permanency outcomes across fiscal years.
 
 **Purpose:**
+- Monitors improvement of decline over time.
+- Supports longitudinal program evaluation.
 
 ---
 
